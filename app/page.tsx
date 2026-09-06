@@ -3,12 +3,12 @@ import ProductCard from "../components/ProductCard";
 import { Product } from "../components/CartContext";
 
 const products: Product[] = [
-  {id:1,name:"100 Diamantes",diamonds:"100",price:4.99},
-  {id:2,name:"310 Diamantes",diamonds:"310",price:14.99,badge:"POPULAR"},
-  {id:3,name:"520 Diamantes",diamonds:"520",price:24.99},
-  {id:4,name:"1.060 Diamantes",diamonds:"1.060",price:49.99,badge:"MELHOR VALOR"},
-  {id:5,name:"2.180 Diamantes",diamonds:"2.180",price:99.99},
-  {id:6,name:"5.600 Diamantes",diamonds:"5.600",price:249.99,badge:"ECONOMIZE"}
+ { id: 1, name: "120 Diamantes", diamonds: "120", price: 4.99 },
+{ id: 2, name: "360 Diamantes", diamonds: "360", price: 14.99 },
+  { id: 3, name: "570 Diamantes", diamonds: "570", price: 24.99 },
+  { id: 4, name: "1.100 Diamantes", diamonds: "1.100", price: 49.99 ,badge:"MELHOR VALOR"},
+{ id: 5, name: "2.340 Diamantes", diamonds: "2.340", price: 99.99 },
+  {id:6,name:"6.200 Diamantes",diamonds:"6.200",price:249.99,badge:"ECONOMIZE"}
 ];
 
 export default function Home(){
