@@ -64,7 +64,7 @@ export async function POST(request: Request) {
         body: JSON.stringify({
   amount: Number(amount),
   identifier: transactionIdentifier,
-  callbackUrl: `${process.env.NEXT_PUBLIC_APP_URL}/api/sigilopay/webhook`,
+ callbackUrl: `${process.env.APP_URL}/api/sigilopay/webhook`,
 }),
       }
     );
